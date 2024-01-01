@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background: url(assets/Images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vw);
+    height: 90vh;
+    position: relative;
+}
+
+.main .black{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0%;;
+    opacity: 0.44;
+}
+
+.main nav{
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.main nav img{
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+.main nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.btn-language{
+    padding: 5px 19px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.Sign-in{
+    padding: 8px 13px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.btn-language:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
