@@ -11,7 +11,7 @@ body{
 }
 
 .main{
-    background: url(assets/Images/bg.jpg);
+    background: url(bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1500px, 100vw);
@@ -39,7 +39,7 @@ body{
 
 .main nav img{
     color: red;
-    width: 130px;
+    width: 120px;
     position: relative;
     z-index: 10;
 }
